@@ -1,16 +1,25 @@
-﻿{
-  "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
-    "skipLibCheck": true,
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "allowImportingTsExtensions": false,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "strict": true,
-    "types": ["vitest/globals"]
-  },
-  "include": ["src"]
+{
+    "compilerOptions":  {
+                            "target":  "ES2022",
+                            "lib":  [
+                                        "ES2022",
+                                        "DOM",
+                                        "DOM.Iterable"
+                                    ],
+                            "module":  "ESNext",
+                            "skipLibCheck":  true,
+                            "moduleResolution":  "Bundler",
+                            "resolveJsonModule":  true,
+                            "allowImportingTsExtensions":  false,
+                            "noEmit":  true,
+                            "jsx":  "react-jsx",
+                            "strict":  true,
+                            "types":  [
+                                          "vite/client",
+                                          "vitest/globals"
+                                      ]
+                        },
+    "include":  [
+                    "src"
+                ]
 }
